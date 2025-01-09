@@ -1,44 +1,11 @@
-# Spotify Listenings & University Exam Schedule Analysis
-
-## Project Overview
-
-This project aims to explore two distinct but interesting datasets: **Tendency of Music Listening** and **University Exam Schedule**. The goal is to analyze the relationship between music genre preferences (as reflected in Spotify listening habits) and the timing of university exams. By examining patterns in listening behavior, I hope to uncover insights into how students' music choices might correlate with exam periods and potentially aid in stress management or study habits.
-
-### Key Questions:
-- How do listening habits (e.g., genre preferences, listening times) correlate with exam schedules?
----
-
-## Datasets
-
-### 1. **Spotify Listenings Data**
-- **Data to include:**
-  - Genre of the song (e.g., Pop, Rock, Classical)
-  - Timestamp (when the song was played)
-  - Frequency of listens
-
-### 2. **University Exam Schedule**
-- **Data to include:**
-  - Exam dates and times
-  - Courses and subjects
-  - Exam duration
-
----
-
-## Project Plan
-
-### 1. **Data Collection**
-   - I will download **Spotify listenings data** from **Spotify** to extract information such as song genres, timestamps, and the frequency of listens.
-   - I will collect the **university exam schedule** from the official university website or related documents to get exam dates, times, courses, and durations.
-
-### 2. **Exploratory Data Analysis (EDA)**
-   - I will clean and preprocess the datasets to handle missing values and standardize formats.
-   - For the **Spotify data**, I will explore trends in genre preferences, listening times, and the frequency of listening over different periods (e.g., day vs. night, weekdays vs. weekends).
-   - I will also analyze the **exam schedule** to identify patterns in exam distribution across the semester and peak stress periods.
-
-### 3. **Visualization**
-   - I will create **visualizations** to show the distribution of genres over time, highlighting peak listening times.
-   - I will plot the **exam schedule** and analyze the relationship between exam periods and listening behavior (e.g., do students tend to listen to calming genres closer to exam times?).
-   - Heatmaps, bar charts, and time series plots will be used to communicate the findings clearly.
-
-### 4. **Machine Learning Models**
-   - If applicable, I will apply machine learning models to predict **listening behavior** based on the exam schedule or time of day.
+{'title': '## Findings\n\n### What you learned about yourself?\n- Through this project, I learned how to effectively analyze and visualize data using Python libraries such as pandas, matplotlib, and seaborn.\n- I gained experience in working with APIs, specifically the Spotify API, to fetch and integrate additional metadata into my dataset.\n- I improved my skills in data cleaning and preprocessing, which are crucial steps in any data analysis project.\n- I learned how to implement a simple machine learning model to make predictions based on the data.\n\n### Limitations and Future Work\n- **Limitations:**\n    - The dataset used for this analysis was limited to a specific time period and may not be representative of broader trends.\n    - The analysis was based on mock data for demonstration purposes, which may not accurately reflect real-world scenarios.\n    - The machine learning model used was a simple logistic regression, which may not be the best model for this type of data.\n\n- **Future Work:**\n    - Collect and analyze a larger and more diverse dataset to gain more comprehensive insights.\n    - Implement more advanced machine learning models to improve prediction accuracy.\n    - Explore additional features and metadata from the Spotify API to enhance the analysis.\n    - Conduct a more detailed analysis of the relationship between listening habits and exam schedules, potentially incorporating other factors such as study habits and stress levels.\n    - Develop a user-friendly dashboard to visualize the findings and make the insights more accessible to a wider audience.',
+ 'description': "## Spotify Listenings & University Exam Schedule Analysis\n =====================================================\n \n### PROJECT OVERVIEW\n ----------------\n This notebook explores the relationship between Spotify listening behaviors\n (e.g., music genres, timestamps, etc.) and university exam schedules. By examining\n patterns in listening behavior, the aim is to understand whether students' music\n choices might correlate with (or reflect) exam stress periods and whether these\n insights can help inform stress management strategies.\n\n### KEY QUESTIONS:\n 1. How do listening habits (genre preferences, listening times, etc.) correlate with exam schedules?\n 2. Does the frequency of certain genres increase or decrease near exam periods?\n\n### NOTEBOOK OUTLINE:\n 1. Data Import & Merging\n 2. Data Cleaning & Preprocessing\n 3. Exploratory Data Analysis (EDA)\n 4. Visualization\n 5. Fetching Additional Metadata (Genre) from Spotify’s API\n 6. Simple Machine Learning Approach\n 7. Limitations & Future Work\n\n ---------------------------------------------------------------\n Let's get started!\n",
+ 'functions': ['chunker'],
+ 'libraries': ['requests',
+  'matplotlib',
+  'seaborn',
+  'sklearn',
+  'json',
+  'numpy',
+  'spotipy',
+  'pandas']}
