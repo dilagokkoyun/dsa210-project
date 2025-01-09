@@ -1,11 +1,59 @@
-{'title': '## Findings\n\n### What you learned about yourself?\n- Through this project, I learned how to effectively analyze and visualize data using Python libraries such as pandas, matplotlib, and seaborn.\n- I gained experience in working with APIs, specifically the Spotify API, to fetch and integrate additional metadata into my dataset.\n- I improved my skills in data cleaning and preprocessing, which are crucial steps in any data analysis project.\n- I learned how to implement a simple machine learning model to make predictions based on the data.\n\n### Limitations and Future Work\n- **Limitations:**\n    - The dataset used for this analysis was limited to a specific time period and may not be representative of broader trends.\n    - The analysis was based on mock data for demonstration purposes, which may not accurately reflect real-world scenarios.\n    - The machine learning model used was a simple logistic regression, which may not be the best model for this type of data.\n\n- **Future Work:**\n    - Collect and analyze a larger and more diverse dataset to gain more comprehensive insights.\n    - Implement more advanced machine learning models to improve prediction accuracy.\n    - Explore additional features and metadata from the Spotify API to enhance the analysis.\n    - Conduct a more detailed analysis of the relationship between listening habits and exam schedules, potentially incorporating other factors such as study habits and stress levels.\n    - Develop a user-friendly dashboard to visualize the findings and make the insights more accessible to a wider audience.',
- 'description': "## Spotify Listenings & University Exam Schedule Analysis\n =====================================================\n \n### PROJECT OVERVIEW\n ----------------\n This notebook explores the relationship between Spotify listening behaviors\n (e.g., music genres, timestamps, etc.) and university exam schedules. By examining\n patterns in listening behavior, the aim is to understand whether students' music\n choices might correlate with (or reflect) exam stress periods and whether these\n insights can help inform stress management strategies.\n\n### KEY QUESTIONS:\n 1. How do listening habits (genre preferences, listening times, etc.) correlate with exam schedules?\n 2. Does the frequency of certain genres increase or decrease near exam periods?\n\n### NOTEBOOK OUTLINE:\n 1. Data Import & Merging\n 2. Data Cleaning & Preprocessing\n 3. Exploratory Data Analysis (EDA)\n 4. Visualization\n 5. Fetching Additional Metadata (Genre) from Spotify’s API\n 6. Simple Machine Learning Approach\n 7. Limitations & Future Work\n\n ---------------------------------------------------------------\n Let's get started!\n",
- 'functions': ['chunker'],
- 'libraries': ['requests',
-  'matplotlib',
-  'seaborn',
-  'sklearn',
-  'json',
-  'numpy',
-  'spotipy',
-  'pandas']}
+
+# Spotify Listenings & University Exam Schedule Analysis  
+
+## Project Overview  
+This project investigates the relationship between Spotify listening behaviors (e.g., music genres, timestamps) and university exam schedules. By analyzing patterns in listening habits, the goal is to determine whether students' music preferences correlate with exam stress periods and explore insights for stress management strategies.
+
+### Key Questions:  
+1. How do listening habits (genre preferences, listening times, etc.) correlate with exam schedules?  
+2. Does the frequency of certain genres increase or decrease near exam periods?  
+
+---
+
+## Notebook Outline  
+1. **Data Import & Merging**  
+2. **Data Cleaning & Preprocessing**  
+3. **Exploratory Data Analysis (EDA)**  
+4. **Visualization**  
+5. **Fetching Additional Metadata (Genre) from Spotify’s API**  
+6. **Simple Machine Learning Approach**  
+7. **Limitations & Future Work**  
+
+---
+
+## Libraries Used  
+- `pandas`  
+- `numpy`  
+- `matplotlib`  
+- `seaborn`  
+- `sklearn`  
+- `requests`  
+- `json`  
+- `spotipy`  
+
+---
+
+## Functions Implemented  
+- `chunker`: A helper function for dividing data into manageable chunks for efficient processing.
+
+---
+
+## Findings  
+
+### What You Learned  
+- Skills in analyzing and visualizing data using Python libraries like `pandas`, `matplotlib`, and `seaborn`.  
+- Experience working with APIs, specifically the Spotify API, to fetch and integrate additional metadata.  
+- Improved data cleaning and preprocessing techniques.  
+- Implemented a simple machine learning model to make predictions based on the data.  
+
+### Limitations  
+- Dataset was limited to a specific time period and may not reflect broader trends.  
+- Mock data was used for demonstration purposes, potentially reducing real-world applicability.  
+- Machine learning model (logistic regression) may not be the most suitable for the dataset.  
+
+### Future Work  
+- Analyze a larger and more diverse dataset for comprehensive insights.  
+- Explore advanced machine learning models for improved accuracy.  
+- Incorporate additional metadata from the Spotify API.  
+- Examine the relationship between listening habits and exam schedules in greater detail.  
+- Develop a user-friendly dashboard for visualizing insights.
